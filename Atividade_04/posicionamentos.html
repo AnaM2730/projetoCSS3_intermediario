@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style type="text/css">
+
+#container{
+    background: #fff;
+    width: 800px;
+    position: relative;
+    margin: 10px auto;
+}
+
+body{
+    background: #c70098a2;
+}
+
+ 
+p{
+   width: 300px;   
+}
+
+.absolute{
+    border: 1px solid red;
+    position: absolute;
+    top: 80px;
+    background: #f2f2f2;
+    right: 80px;
+}
+
+.fixed{
+    border: 1px solid red;
+    position: fixed; /* fixo em relação a janela do navegador */
+    background: #f2f2f2;
+    bottom: 0px;
+    margin: 0;
+    right: 0px;
+}
+
+.relative{
+border: 1px solid red;
+position: relative;
+/* top: -20px;
+left: 0px; */
+/* right: 20px; */
+bottom: -20px;
+
+
+}
+
+    </style>
+  
+<!-- top(topo) , right (direita), bottom(inferior, em baixo) e left(esquerda) 
+ -->  
+
+<!-- RELATIVE = ele tem o seu alinhamento baseado na posição inicial do elemento
+
+    ABSOLUTE = ele permite que vc defina a caixa que é removida do fluxo do documento e consegue alinhar a caixa baseado no container que tem a posição
+
+-->
+
+
+
+    <title>Posicionamentos (static, relative, absolute e fixed)</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Posicionametnos</h1>
+
+
+<p> P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p class="fixed"> P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P9 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+<p> P10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla incidaceat facere minus! Ullam impedit temporibus dolores aut nulla iste quis commodi, didantium optio repellendus perferendis eligendi!</p>
+
+</div>
+
+</body>
+</html>
+
